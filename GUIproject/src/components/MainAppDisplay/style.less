@@ -1,0 +1,89 @@
+@import '~style/helpers';
+
+.container{ 
+	background-image: url('../../assets/backgrounds/initial.jpg');
+	color: hsl(0, 0%, 100%);
+	height:1087px;
+	border-radius: 50px;
+	width: 720px;
+	text-align: left;
+	margin: 0 auto;
+	background-size: cover;
+}
+
+.cold{
+	background-image: url('../../assets/backgrounds/NoMonsterCloudy.png');
+	color: hsl(0, 0%, 100%);
+	height:1087px;
+	border-radius: 50px;
+	width: 720px;
+	text-align: left;
+	margin: 0 auto;
+}
+.warm{
+	background-image: url('../../assets/backgrounds/NoMonsterSunny.jpg');
+	color: hsl(0, 0%, 100%);
+	height:1087px;
+	width: 720px;
+	border-radius: 50px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.coldRainy{
+	background-image: url('../../assets/backgrounds/NoMonsterRainy.png');
+	color: hsl(0, 0%, 100%);
+	height:1087px;
+	border-radius: 50px;
+	width: 720px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.warmRainy{
+	background-image: url('../../assets/backgrounds/NoMonsterSunnyRainy.png');
+	color: hsl(0, 0%, 100%);
+	height:1087px;
+	border-radius: 50px;
+	width: 720px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+.details {
+	flex: 4;
+}
+.city {
+	margin-top: 530px;
+	margin-left: 30px;
+	flex: 1;
+	font-size: 1.7em;
+	font-weight: 400;	
+}
+.conditions {
+	margin-left: 30px;
+	flex: 1;
+	font-size: 1em;
+}
+.temperature {
+	margin-left: 30px;
+	flex: 2;
+	margin-top: 0;
+	font-size: 4.8em;
+	font-weight: 300;
+	letter-spacing: -12px;
+}
+.filled:after {
+	content: "°";
+	margin: 0 0 0 1rem;
+	font-size: 0.5em;
+	font-weight: 100;
+	display: inline-block;
+	padding-top: 10px;
+	vertical-align: top;
+}
